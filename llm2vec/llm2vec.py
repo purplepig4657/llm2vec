@@ -101,7 +101,7 @@ class LLM2Vec(nn.Module):
                 model,
                 base_model_name_or_path,
             )
-            model = model.merge_and_unload()
+            # model = model.merge_and_unload()
 
         if peft_model_name_or_path is not None:
             model = PeftModel.from_pretrained(
