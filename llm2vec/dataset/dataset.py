@@ -10,6 +10,7 @@ class DataSample:
     positive: str
     negative: str = None
     task_name: str = None
+    label: int = None
 
 class TrainSample:
     """
