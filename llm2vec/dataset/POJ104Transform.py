@@ -18,7 +18,7 @@ class POJ104Transform(Dataset):
         self.data = []
         self.val_data = []
         if file_path is None:
-            file_path = "cache/output4.csv"
+            file_path = "cache/output5.csv"
         self.load_data(file_path)
 
     def __len__(self):
